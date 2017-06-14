@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGrey"
+    tools:context="com.example.sumit.myapplication4.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            android:text="Profile Details"
+            android:textStyle="bold"
+            android:background="@color/DarkGrey"
+            android:textColor="@color/white"
+
+            />
+
+        <ScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:padding="15dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <EditText
+                    android:id="@+id/first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter First Name"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+
+
+                    />
+
+                <EditText
+                    android:id="@+id/last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Last Name"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/Date_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:layout_marginTop="8dp"
+                    android:hint="Date Of Birth"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+                    />
+
+                <Spinner
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="8dp"
+                    android:entries="@array/gender_array"
+                    android:prompt="@string/gender_prompt"
+                    android:hint="Choose Gender"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="8dp"
+                    android:hint="Enter Your Email Address"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:layout_marginTop="8dp"
+                    android:hint="Enter Your Phone Number"
+                    android:background="@drawable/edit_text"
+                    android:paddingLeft="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginTop="8dp"
+                    android:hint="Enter Your Address"
+                    android:background="@drawable/edit_text"
+                    android:layout_weight="0.88"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:text="Submit"
+                    android:layout_marginTop="30dp"
+                    android:background="#75dbef"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

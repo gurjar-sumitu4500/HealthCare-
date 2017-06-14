@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumit.myapplication4.CheckConnectionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bluetooth_button"
+        android:text="Bluetooth Status!"
+        android:background="@color/Green"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sharefile"
+        android:text="sharefile"
+        android:background="@color/Blue"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/Blue"
+        android:id="@+id/files"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/file_Content"
+        android:background="@color/Red"
+        android:scrollbars="vertical"
+        />
+
+
+</FrameLayout>

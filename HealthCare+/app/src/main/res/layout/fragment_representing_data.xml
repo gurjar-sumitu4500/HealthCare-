@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumit.myapplication4.PreviousDataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/graph23"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulse"
+        android:textSize="16dp"
+        android:id="@+id/graph_side"
+        android:rotation="-90"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="left"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="410dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/information"
+        android:padding="30dp"
+        android:textSize="25dp"
+        android:text="Pulse rate"
+        android:background="@color/DarkGrey"
+        android:textColor="@color/white"
+        android:layout_marginTop="450dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/file"
+        android:layout_marginTop="900dp"/>
+
+</FrameLayout>

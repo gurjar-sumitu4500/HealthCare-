@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <group android:checkableBehavior="single">
+
+         <item
+             android:id="@+id/Profile_id"
+             android:title="User Profile"
+             ></item>
+         <item
+             android:id="@+id/Check_connection_id"
+             android:title="Check Connection"
+             ></item>
+         <item
+             android:id="@+id/Previous_data_id"
+             android:title="Check Previous Data"
+             ></item>
+     </group>
+
+    <item android:title="Share">
+        <menu>
+            <item
+                android:title="Facebook"
+                android:id="@+id/facebook_id"
+                ></item>
+            <item
+                android:title="Whatsapp"
+                android:id="@+id/whatsapp_id"
+                ></item>
+        </menu>
+
+    </item>
+</menu>
