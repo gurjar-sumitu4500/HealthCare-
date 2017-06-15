@@ -1,4 +1,4 @@
-# HealthCare-
+# HealthCare+
 ## About the Developer
 The HealthCare+ application was Developed by Sumit Kumar as the Undergraduate degree final year dissertation project. This project mainly focuses on the users Who require daily SpO2 monitoring but can be used by anyone who would want to monitor their SpO2 level.
 
