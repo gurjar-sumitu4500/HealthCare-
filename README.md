@@ -7,6 +7,7 @@ HealthCare+ is a android application. This application allow users to monitor th
 
 ## Screenshots
 Here are few Screenshots of the application. Full Design and Screenshots can be found in DesignAndDescription.docx  file.
+
 ![image](https://user-images.githubusercontent.com/16785221/27176259-beb48806-51b9-11e7-9046-48f3305648ed.png)
 
 ![image](https://user-images.githubusercontent.com/16785221/27176276-c71dece4-51b9-11e7-8928-edf1f259ef20.png)
